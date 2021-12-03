@@ -59,7 +59,7 @@ void main(void)
             int acount = 0;
             while ((IFG2 & UCA0TXIFG) == 0);                  //Wait Unitl the UART transmitter is ready
             UCA0TXBUF = tempMic;          //Transmit the received data.
-            //count--;
+            count--;
         }
     }
 }
