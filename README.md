@@ -4,11 +4,13 @@ Created: Demember 3, 2021
 Latest Update: Initial Commit
 Description: Using the MSP430G2 embedded system, operate different sensor devices, reading data from analog to digital, then sending this data over UART to thinkspeak
 _______________________________________________________________________________________________________________________________________
-FILES REQUIRED:
+FILES REQUIRED:<br />
 msp430.h
 _______________________________________________________________________________________________________________________________________
 VARIABLES USED:
+<br />
 tempRaw
+<br />
 micRaw
 _______________________________________________________________________________________________________________________________________
 PROGRAM FUNCTIONS:
